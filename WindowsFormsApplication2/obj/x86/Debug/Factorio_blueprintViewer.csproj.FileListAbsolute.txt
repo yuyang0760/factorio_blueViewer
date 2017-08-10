@@ -1,5 +1,4 @@
 C:\Users\yy\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\zlib.net.dll
-C:\Users\yy\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\Factorio_blueprintViewer.csprojResolveAssemblyReference.cache
 C:\Users\yy\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form1.resources
 C:\Users\yy\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Properties.Resources.resources
 C:\Users\yy\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\Factorio_blueprintViewer.csproj.GenerateResource.Cache
@@ -7,3 +6,4 @@ C:\Users\yy\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\Windo
 C:\Users\yy\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\Factorio_blueprintViewer.pdb
 C:\Users\yy\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\Factorio_blueprintViewer.exe
 C:\Users\yy\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\Factorio_blueprintViewer.pdb
+C:\Users\yy\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\Factorio_blueprintViewer.csprojResolveAssemblyReference.cache

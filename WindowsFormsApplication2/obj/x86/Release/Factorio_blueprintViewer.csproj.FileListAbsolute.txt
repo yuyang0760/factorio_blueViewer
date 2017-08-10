@@ -1,0 +1,9 @@
+C:\Users\yy\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Release\Factorio_blueprintViewer.exe
+C:\Users\yy\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Release\Factorio_blueprintViewer.pdb
+C:\Users\yy\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Release\zlib.net.dll
+C:\Users\yy\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Release\Factorio_blueprintViewer.csprojResolveAssemblyReference.cache
+C:\Users\yy\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Release\WindowsFormsApplication2.Form1.resources
+C:\Users\yy\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Release\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\yy\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Release\Factorio_blueprintViewer.csproj.GenerateResource.Cache
+C:\Users\yy\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Release\Factorio_blueprintViewer.exe
+C:\Users\yy\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Release\Factorio_blueprintViewer.pdb

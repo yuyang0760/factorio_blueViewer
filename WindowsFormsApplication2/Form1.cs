@@ -57,7 +57,11 @@ namespace WindowsFormsApplication2
         private void bt_copy1_Click(object sender, EventArgs e)
         {
             Clipboard.Clear();
-            Clipboard.SetText(textBox1.Text);
+            if (textBox1.Text != "" && textBox1.Text != null)
+            {
+                Clipboard.SetText(textBox1.Text);
+            }
+         
             MessageBox.Show("已复制到剪贴板");
         }
 
@@ -65,7 +69,11 @@ namespace WindowsFormsApplication2
         private void bt_copy2_Click(object sender, EventArgs e)
         {
             Clipboard.Clear();
-            Clipboard.SetText(textBox3.Text);
+            if (textBox3.Text != "" && textBox3.Text != null)
+            {
+                Clipboard.SetText(textBox3.Text);
+            }
+           
             MessageBox.Show("已复制到剪贴板");
         }
         // 粘贴
@@ -76,6 +84,19 @@ namespace WindowsFormsApplication2
         // 看看字符串
         private void bt_viewer_Click(object sender, EventArgs e)
         {
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    StreamReader sr=   File.OpenText(@"C:\Users\yy\Desktop\模式二紧凑版加密\"+i+".txt");
+           
+            //    StreamWriter sw = File.CreateText(@"C:\Users\yy\Desktop\模式二紧凑版加密\b" + i + ".txt");
+            //    sw.Write(Do.kankanStr(sr.ReadToEnd()));
+            //    sr.Close();
+            //    sw.Close();
+            //}
+
+            //return;
+
+
             if (textBox1.Text.Trim()=="")
             {
                 MessageBox.Show("不能为空");
@@ -86,6 +107,9 @@ namespace WindowsFormsApplication2
            if (b)
            {
                textBox2.Text = Do.kankanStr(textBox1.Text);
+                //Clipboard.Clear();
+                //Clipboard.SetText(textBox2.Text);
+         
            }
            else {
                MessageBox.Show("貌似字符串格式不对,解析不出来啊!");
@@ -114,7 +138,7 @@ namespace WindowsFormsApplication2
             }
 
             //  "count":39
-            Regex reg = new Regex(@"""" + textBox6.Text + @""":\d{1,6}");
+            Regex reg = new Regex(@"""" + textBox6.Text + @""":[-+]?\d{1,12}");
             MatchCollection mc = reg.Matches(textBox2.Text);
 
             string ff = textBox2.Text;
@@ -181,6 +205,43 @@ namespace WindowsFormsApplication2
         private void button3_Click(object sender, EventArgs e)
         {
             textBox5.Text = "";
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            textBox7.Text = "";
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            textBox8.Text = "";
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            textBox7.Text = Clipboard.GetText();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Clipboard.Clear();
+            if (textBox8.Text != "" && textBox8.Text != null)
+            {
+                Clipboard.SetText(textBox8.Text);
+            }
+ 
+
+            MessageBox.Show("已复制到剪贴板");
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+           textBox8.Text =  Do.musicTihuan(textBox7.Text.Trim(),comboBox1.Text);
+           int n = textBox8.Text.Split(',').Length;
+           label5.Text = Math.Ceiling(n / 18.0)+"个常量箱";
+
+
+
         }
 
  
