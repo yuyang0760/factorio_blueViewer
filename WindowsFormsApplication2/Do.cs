@@ -11,7 +11,7 @@ namespace WindowsFormsApplication2
     {
 
         public static string regexTihuan(string ff,string c) {
-            //
+            ////
             string[] strArr = ff.Split(',');
             //  "count":39
             Regex reg = new Regex(@"""" + c + @""":\d{1,6}");
